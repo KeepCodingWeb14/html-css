@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form example</title>
+</head>
+<body>
+  <h1>Form example</h1>
+  <form
+    action="registro-completado.html"
+    method="post"
+    novalidate
+  >
+    <div>
+      <label for="mail">Email</label>
+      <input required name="email" id="mail" type="email" placeholder="Add your email">
+    </div>
+    <div>
+      <label for="pass">Password</label>
+      <input required name="pwd" id="pass" type="password" placeholder="add your password">
+    </div>
+    <button type="button">quiero factura</button>
+    <fieldset>
+      <legend>Fav programming lang</legend>
+      <label for="js">Javascript</label>
+      <input type="radio" id="js" name="favLang" value="javascript" checked>
+      <label for="python">python</label>
+      <input type="radio" id="python" name="favLang" value="python">
+      <label for="net">.NET</label>
+      <input type="radio" id="net" name="favLang" value="net">
+    </fieldset>
+    <fieldset>
+      <legend>Skill</legend>
+      <input type="checkbox" id="skillJs" name="skill" value="javascript">
+      <label for="skillJs">Javascript</label>
+      <input type="checkbox" id="skillPython" name="skill" value="python">
+      <label for="skillPython">python</label>
+      <input type="checkbox" id="skillNet" name="skill" value="net">
+      <label for="skillNet">.NET</label>
+    </fieldset>
+    <fieldset>
+      <legend>Privacy</legend>
+      <div>
+        <input type="checkbox" name="spam" id="spam" checked>
+        <label for="spam">Subscribe to my newsletter</label>
+      </div>
+      <div>
+        <input required type="checkbox" name="terms" id="termsAndConditions">
+        <label for="termsAndConditions">Accept terms and conditions</label>
+      </div>
+    </fieldset>
+    <label for="bio">Add your bio</label>
+    <textarea required minlength="10" name="bio" id="bio"></textarea>
+    <hr>
+    <select name="ciudad" id="ciudad">
+      <option value="mad">Madrid</option>
+      <option value="bcn">Barcelona</option>
+      <option value="mal">Malaga</option>
+    </select>
+    <hr>
+    <div>
+      <label for="phone">phone</label>
+      <input
+        required
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="add phone"
+        pattern="[0-9]+"
+      >
+    </div>
+    <input type="submit" value="Enviar">
+    <button type="submit">registrar</button>
+  </form>
+</body>
+</html>
