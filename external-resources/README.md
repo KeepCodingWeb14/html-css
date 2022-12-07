@@ -35,7 +35,7 @@
 - **Design**
   - [Responsive design patterns](https://developers.google.com/web/fundamentals/design-and-ux/responsive/patterns)
   - [Google fonts](https://fonts.google.com/)
-  - [Google webfont helper](https://google-webfonts-helper.herokuapp.com/fonts)
+  - [Google webfont helper](https://gwfh.mranftl.com/)
   - [Coolors](https://coolors.co/)
   - [Material pallete generator](https://www.materialpalette.com/)
   - [Material pallete app generator](https://material.io/resources/color/#!/?view.left=0&view.right=0)
