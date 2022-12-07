@@ -1,0 +1,39 @@
+:root {
+  --main-color: #4C4AE6;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+}
+
+.footer {
+  /* background-color: rgb(65, 103, 149); */
+  background-color: var(--main-color);
+  color: #FFF;
+  /* color: rgba(0, 0, 0, 0.2); */
+  text-align: center;
+  font-style: italic;
+  /* 1em/1rem -> 16px */
+  font-size: 2em; /* 2*16px = 32px */
+  /* padding */
+  /* Top - Right - Bottom - Left */
+  padding: 20px 0 20px 0;
+  /* Y (top / bottom) - X (Left / Right) */
+  padding: 20px 0px;
+
+  height: 200px;
+}
+
+.btn {
+  background-color: var(--main-color);
+}
+
+.navbar {
+  background-color: var(--main-color);
+}
+
+.primary {
+  color: var(--main-color);
+}
