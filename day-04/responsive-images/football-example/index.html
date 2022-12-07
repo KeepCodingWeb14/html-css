@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Football example</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav>
+    <img src="assets/logo.jpg" alt="qatar logo">
+  </nav>
+  <main>
+    <section>
+      <!-- only img tag
+      <picture>
+        <img src="assets/morocco.webp" alt="morroco victory">
+      </picture>
+       end img tag -->
+      <!-- only source and media attribute
+      <picture>
+        <source
+          media="(min-width: 576px)"
+          srcset="assets/morocco_large/morocco_w_1107.webp"
+        >
+        <source
+          media="(max-width: 576px)"
+          srcset="assets/morocco_small/morocco_small_w_738.png"
+        >
+        <img src="assets/morocco.webp" alt="morroco victory">
+      </picture>
+      end source and media attribute -->
+      <picture>
+        <source
+          media="(min-width: 576px)"
+          srcset="
+          assets/morocco_large/morocco_w_1200.webp 1200w,
+          assets/morocco_large/morocco_w_1107.webp 1107w,
+          assets/morocco_large/morocco_w_912.webp 912w,
+          assets/morocco_large/morocco_w_735.webp 735w,
+          assets/morocco_large/morocco_w_605.webp 605w
+          "
+        >
+        <source
+          media="(max-width: 576px)"
+          srcset="
+          assets/morocco_small/morocco_small_w_738.png 738w,
+          assets/morocco_small/morocco_small_w_656.png 656w,
+          assets/morocco_small/morocco_small_w_610.png 610w,
+          assets/morocco_small/morocco_small_w_556.png 556w,
+          assets/morocco_small/morocco_small_w_498.png 498w,
+          assets/morocco_small/morocco_small_w_442.png 442w,
+          assets/morocco_small/morocco_small_w_373.png 373w
+          "
+        >
+        <img src="assets/morocco.webp" alt="morroco victory">
+      </picture>
+      <div class="content">
+        <h1>Morocco beats Spain becoming first ever Arab team to reach quarter finals</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem sunt pariatur id quod dolore libero tempora non neque hic cumque iusto eligendi sit, velit iste, doloremque, harum accusamus cupiditate. Nemo?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus nesciunt quis corporis praesentium ducimus aut voluptas, possimus error aliquid nisi. Impedit sapiente maiores a enim eius earum nisi quod!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus nesciunt quis corporis praesentium ducimus aut voluptas, possimus error aliquid nisi. Impedit sapiente maiores a enim eius earum nisi quod!</p>
+        <hr>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus nesciunt quis corporis praesentium ducimus aut voluptas, possimus error aliquid nisi. Impedit sapiente maiores a enim eius earum nisi quod!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut accusamus nesciunt quis corporis praesentium ducimus aut voluptas, possimus error aliquid nisi. Impedit sapiente maiores a enim eius earum nisi quod!</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
