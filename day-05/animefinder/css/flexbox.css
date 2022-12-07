@@ -1,0 +1,48 @@
+.container {
+  background-color: blue;
+  height: 70vh;
+  display: flex;
+  /* flex-direction: row X column Y*/
+  justify-content: space-evenly; 
+  /* flex-direction: row Y column X */
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.item {
+  width: 80px;
+  height: 80px;
+  background-color: red;
+}
+
+/* navbar */
+.navbar {
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.navbar .list {
+  display: flex;
+}
+
+.navbar .list .list-item a {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.navbar .list .list-item a, .navbar {
+  color: #FFF;
+}
+
+/*
+.navbar .list .list-item a {
+  color: #FFF;
+}
+.navbar {
+  color: #FFF;
+}
+*/
