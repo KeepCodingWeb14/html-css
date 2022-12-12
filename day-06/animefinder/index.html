@@ -5,10 +5,14 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Anime finder</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/flexbox.css">
   <link rel="stylesheet" href="css/carousel.css">
+  <link rel="stylesheet" href="css/transition.css">
 </head>
 <body>
   <!--
@@ -18,6 +22,7 @@
     <button class="btn">Login</button>
   </div>
   -->
+  <span class="material-icons">face</span>
   <nav class="navbar">
     <h1>Animefinder</h1>
     <ul class="list">
@@ -53,7 +58,10 @@
   </section>
   <hr>
   <main class="main">
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere necessitatibus molestiae corrupti quam! Ipsum culpa nisi itaque error, asperiores inventore adipisci quam laborum dignissimos alias dolores iusto ex facere!</p>
+    <div class="card">
+      <span class="closed">X</span>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere necessitatibus molestiae corrupti quam! Ipsum culpa nisi itaque error, asperiores inventore adipisci quam laborum dignissimos alias dolores iusto ex facere!</p>
+    </div>
     <label for="nombre">nombre</label>
     <input type="text" id="nombre">
     <hr>
