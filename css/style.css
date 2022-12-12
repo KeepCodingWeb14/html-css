@@ -1,0 +1,99 @@
+:root {
+  --main-color: #4C4AE6;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+/* footer */
+.footer {
+  /* background-color: rgb(65, 103, 149); */
+  background-color: var(--main-color);
+  color: #FFF;
+  /* color: rgba(0, 0, 0, 0.2); */
+  text-align: center;
+  font-style: italic;
+  /* 1em/1rem -> 16px */
+  font-size: 2em; /* 2*16px = 32px */
+  /* padding */
+  /* Top - Right - Bottom - Left */
+  padding: 20px 0 20px 0;
+  /* Y (top / bottom) - X (Left / Right) */
+  padding: 20px 0px;
+  /* All */
+  padding: 20px;
+  padding-top: 40px;
+  /* Border */
+  border: 1px solid red;
+  /* border-radius: 50%; */
+  /* margin */
+  /* Top - Right - Bottom - Left */
+  margin: 60px 20px 0 20px;
+  /* Y (top / bottom) - X (Left / Right) */
+  margin: 40px 0;
+  margin-top: 0;
+}
+
+.main {
+  width: 90%;
+  max-width: 680px;
+  margin: 20px auto;
+}
+
+.main label {
+  /* display: none; */
+  /* visibility: hidden; */
+  opacity: 0;
+}
+
+#nombre {
+  display: block;
+  display: inline-block;
+}
+
+.navbar {
+  background-color: var(--main-color);
+}
+
+.primary {
+  color: var(--main-color);
+}
+
+/* navbar */
+.navbar {
+  background-color: var(--main-color);
+  color: #FFF;
+}
+
+.navbar a.link {
+  display: none;
+}
+
+@media screen and (min-width: 546px) {
+  /* CSS de ancho > 546px */
+  .navbar a.link {
+    display: inline-block;
+    color: #FFF;
+  }
+}
+
+@media screen and (min-width: 746px) {
+  /* CSS de ancho > 546px */
+  .navbar a.link {
+    text-decoration: underline;
+  }
+}
+
+@media print {
+  .navbar a.link {
+    display: inline-block;
+    color: red;
+  }
+  .footer {
+    display: none;
+  }
+}
+

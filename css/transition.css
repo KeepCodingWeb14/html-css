@@ -1,0 +1,65 @@
+
+.navbar > h1 {
+  font-size: 1.2rem;
+  transition: font-size .3s linear, color 1s ease-in-out;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar > h1:hover {
+    cursor: pointer;
+    color: red;
+    font-size: 1rem;
+  }
+}
+
+/* 1º animación */
+@keyframes example {
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: -20px;
+  }
+  30% {
+    margin-top: 0px;
+  }
+  35% {
+    margin-top: -20px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+/* 2º usar la animación */
+#animate {
+  position: absolute;
+  background-color: aqua;
+  top: 50px;
+  left: 50px;
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.card .closed {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+}
+
+.navbar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*#animate:hover {
+  animation: example 0.5s;
+}*/
