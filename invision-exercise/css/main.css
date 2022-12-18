@@ -1,0 +1,76 @@
+:root {
+  /* definición variable */
+  --main-primary-color: #4C4AE6;
+  --secondary-font-color: #fff;
+  font-size: 16px;
+}
+body {
+  font-size: 16px;
+}
+
+.main-bg {
+  background-color: var(--main-primary-color);
+  color: var(--secondary-font-color);
+}
+
+/* -- add your main tag css */
+.main-content {
+  width: 90%;
+  margin: 31px auto 0 auto;
+}
+/* --- add your nav tag css --- */
+.navbar {
+  padding: 12px 20px;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .image-container {
+  width: 50px;
+}
+
+.navbar .image-container img {
+  width: 100%;
+}
+
+.navbar .app-title {
+  color: var(--secondary-font-color);
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* --- add your form css */
+
+/* title */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.form-group .search-label {
+  margin-bottom: 10px;
+}
+
+.form-group input {
+  padding: 10px;
+  border-radius: 5px;
+  border-color: rgb(0, 0, 0, 0.2);
+}
+
+.search-form h1 {
+  margin-bottom: 12px;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.button {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 12px;
+}
